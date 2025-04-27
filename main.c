@@ -199,7 +199,8 @@ int main(int argc, char **argv)
     printf("4. feladat: Barlangok szama: %d\n", DATA_SIZE);
     printf("5. feladat: Az atlagos melyseg: %.3f m\n", SUM_MISKOLC / MISKOLC_DB);
     printf("6. feladat: Kerem a vedettsegi szintet: ");
-    
+
+    //NOTE: maybe need to refactor
     if(fgets(tmp, STR_MAX_LEN, stdin) == NULL)
     {
         error_MSG;
